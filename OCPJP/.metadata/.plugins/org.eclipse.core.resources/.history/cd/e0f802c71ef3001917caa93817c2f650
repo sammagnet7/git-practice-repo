@@ -1,0 +1,42 @@
+package sierra.cathy;
+
+public class Sorttest {
+
+	public static void main(String[] args) {
+		int[] a=mergeArrays(new int[]{1,3,8,9}, new int[]{0,2,5,7});
+		for(int s: a){
+			System.out.println(s);
+		}
+		
+			
+		}
+	
+	
+	public static int[] mergeArrays(int[]arr1,int[]arr2){
+	    
+	    int arrayLength1= arr1.length;
+	    int arrayLength2= arr2.length;
+	    int totalLength=arrayLength1+arrayLength2;
+	    System.out.println(totalLength);
+	    int[] myArray=new int[totalLength];
+
+	    for(int m=0,n=0,k=0; k<totalLength && m<arrayLength1 && n< arrayLength2; ){
+	        if(arr1[m]<arr2[n]){
+	            myArray[k++]=arr1[m++];
+	        }
+	        else if(arr1[m]>arr2[n]){
+	            myArray[k++]=arr2[n++];
+	        }
+	        else if(arr1[m]>arr2[n]){
+	            myArray[k++]=arr1[m++];
+	            myArray[k++]=arr2[n++];
+	        }
+	        
+	        
+	    }
+	    
+	    return myArray;
+		
+	}
+
+}
