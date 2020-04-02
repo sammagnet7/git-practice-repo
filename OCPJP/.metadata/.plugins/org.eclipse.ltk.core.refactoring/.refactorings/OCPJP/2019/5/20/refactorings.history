@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;sierra.cathy.nio2.TestWatchEvent&apos; to &apos;TestWatcher&apos;&#x0D;&#x0A;- Original project: &apos;OCPJP&apos;&#x0D;&#x0A;- Original element: &apos;sierra.cathy.nio2.TestWatchEvent&apos;&#x0D;&#x0A;- Renamed element: &apos;sierra.cathy.nio2.TestWatcher&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TestWatchEvent&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;sierra.cathy.nio2{TestWatchEvent.java[TestWatchEvent" matchStrategy="1" name="TestWatcher" qualified="false" references="true" similarDeclarations="false" stamp="1557897033294" textual="false" version="1.0"/>
-</session>
